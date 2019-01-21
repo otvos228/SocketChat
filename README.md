@@ -20,5 +20,5 @@ Run the server:
 
     node server.js
 
-Open browser, head to http://localhost:3000/ and open some tabs.
+At browser, open some tabs and head to http://localhost:3000/ 
 Chat!
