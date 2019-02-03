@@ -10,25 +10,6 @@ let username = '';
 
 const messages = []; // { message: 'Hi', user: 'guest0001' }
 
-//TODO connect to live server 
-// http://185.13.90.140:8081
-//
-//used: https://cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.17/socket.io.js
-//
-//problem: GET http://undefined/socket.io/1/?t=... net::ERR_NAME_NOT_RESOLVED
-//
-//start old code
-/*let ipAddress = '185.13.90.140';
-let port = '8081';
-var socket = new io.Socket();
-socket.connect('http://' + ipAddress + ':' + port);
- socket.on('connect', function() {
-     socket.emit('message',{message:'Hi', user: 'guest0001'});
-  });
- socket.on('message', function (data) {
-    alert(data);
-  }); */
-//end of old code
 
 //for the input
 class Corrector {
